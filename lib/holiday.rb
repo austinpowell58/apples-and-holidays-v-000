@@ -79,7 +79,7 @@ holiday_hash.collect do |season, holiday|
   end 
   
 end
-
+require 'pry'
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
@@ -91,6 +91,7 @@ def all_holidays_with_bbq(holiday_hash)
       end
     end
   end 
+  binding.pry
   holiday_array.key
 end
 
